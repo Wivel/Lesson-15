@@ -14,3 +14,18 @@ function getDigitsSum(num) {
     }
     return sum;
 }
+
+function isEven(num) {
+    return num % 2 == 0;
+
+}
+
+function getDivisors(num) {
+    var arr = [];
+    for (let i=0;i<=num;i++){
+        if (num%i==0){
+            arr.push(i);
+        }
+    }
+    return arr;
+}
